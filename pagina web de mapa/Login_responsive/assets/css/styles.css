@@ -1,0 +1,78 @@
+/*------GOOGLE FONTS-----*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap');
+
+/*------ VARIABLES CSS----*/
+:root{
+    
+    /* ----COLORES----- */
+    --first-color: #9D4BFF;
+    --first-color-dark: #23004D;
+    --first-color-light: #A49EAC;  
+    --first-color-lighten: #F2F2F2;
+
+    /*-----FUENTE Y TIPOGRAFIA-------*/
+    --body-font: 'Open Sans', sans-serif;
+    --h1-font-size: 1.5rem;
+    --normal-font-size: .938rem;
+    --small-font-size: .813rem;
+}
+
+
+    
+    
+/*----- BASE -----*/
+*,::before,::after{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family:var(--body-font);
+    font-size: var(--normal-font-size);
+    color: var(--first-color-dark);
+}
+
+h1{
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+/*----- LOGIN -----*/
+.login{
+    display: grid;
+    grid-template-columns: 100%;
+    height: 100vh;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+.login_content{
+    display: grid;
+}
+
+.login_img{
+    justify-self: center;
+}
+
+.login_img img{
+    width: 310px;
+    margin-top: 1.5rem;
+}
+
+.login_forms
+
+/*---- MOSTRAR LOGIN -----*/
+
+
+/*----OCULTAR LOGIN-----*/
+
+
+
+/*-----MEDIA QUERIES----*/
+
+
